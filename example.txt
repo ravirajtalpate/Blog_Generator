@@ -1,0 +1,32 @@
+Input Example:
+Topic: "Artificial Intelligence in Healthcare"
+
+Output Example:
+The blog will include:
+
+An engaging introduction (~150 words) explaining the impact of AI in healthcare.
+
+A detailed content section (~1200 words) covering recent advancements, case studies, and future prospects.
+
+A conclusion summarizing the key takeaways.
+
+Sample output snippet:
+text
+# Artificial Intelligence in Healthcare
+
+*Target Word Count: 1500 words*
+
+---
+
+## Introduction
+Artificial Intelligence (AI) is revolutionizing healthcare by enabling precision medicine, improving diagnostics, and streamlining administrative processes. Its integration into healthcare promises better patient outcomes and operational efficiencies.
+
+---
+
+## Main Content
+AI techniques like machine learning and deep learning are analyzing vast datasets for early diagnosis, personalized treatment plans, and drug discovery. Use cases include radiology image analysis, predictive analytics for patient monitoring, and virtual health assistants. Challenges include data privacy, ethical considerations, and integration with existing systems.
+
+---
+
+## Conclusion
+AI holds transformative potential for healthcare, making treatments more personalized and accessible. Continued research and regulation are essential to maximize benefits and mitigate risks.

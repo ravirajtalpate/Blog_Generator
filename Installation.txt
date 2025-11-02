@@ -1,0 +1,54 @@
+Installation Instructions
+Prerequisites:
+
+Python 3.10 or later installed.
+
+Set up a virtual environment (recommended):
+
+bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+Install Dependencies:
+
+Create a requirements.txt file with the following content:
+
+text
+langchain_community
+langchain_core
+langchain_groq
+Then run:
+
+bash
+pip install -r requirements.txt
+Configure Environment Variables:
+
+Export API keys for Groq and optionally Google Custom Search:
+
+On Linux/macOS:
+
+bash
+export GROQ_API_KEY='your-groq-api-key'
+export GOOGLE_API_KEY='your-google-api-key'         # Optional
+export GOOGLE_CSE_ID='your-google-cse-id'           # Optional
+On Windows Command Prompt:
+
+text
+set GROQ_API_KEY=your-groq-api-key
+set GOOGLE_API_KEY=your-google-api-key              # Optional
+set GOOGLE_CSE_ID=your-google-cse-id                # Optional
+Usage Guidelines
+Run the script:
+
+bash
+python Blog_genrator.py
+When prompted, enter the topic for the blog post, for example:
+
+text
+Enter a blog topic: Artificial Intelligence in Healthcare
+The program will generate and print the blog post with these sections:
+
+Introduction (~150 words)
+
+Detailed content (~1200 words)
+
+Conclusion summarizing key takeaways

@@ -1,0 +1,16 @@
+Output Persistence to Files
+
+Reason: The focus was to produce a minimal working prototype that generates and displays content quickly in the console. File I/O was deferred to keep the code simple and concentrate on core generation and async logic.
+
+Configurable CLI Arguments
+
+Reason: The initial objective was to provide an interactive proof-of-concept. Adding CLI argument parsing was considered secondary and could complicate the example for first-time users.
+
+Enhanced Error Handling
+
+Reason: Basic error handling was included, but extensive retry logic and detailed user feedback require more development time and testing to avoid masking issues and confusing users.
+
+Caching Layer
+
+Reason: Caching would improve performance but adds complexity. For the demonstration scope, fresh calls per request were acceptable to show live capabilities.
+
