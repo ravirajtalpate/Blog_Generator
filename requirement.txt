@@ -1,7 +1,6 @@
+streamlit
 langchain
-langchain-core
 langchain-community
 langchain-groq
-wikipedia-api
+wikipedia
 google-api-python-client
-streamlit
