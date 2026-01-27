@@ -1,0 +1,6 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+wikipedia-api
+google-api-python-client
