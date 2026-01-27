@@ -4,3 +4,4 @@ langchain-community
 langchain-groq
 wikipedia
 google-api-python-client
+pip install langchain-groq
