@@ -1,8 +1,9 @@
+asyncio
 streamlit
 langchain
-langchain-community
 langchain-core
+langchain-community
 langchain-groq
+groq
 wikipedia
 google-api-python-client
-asyncio
